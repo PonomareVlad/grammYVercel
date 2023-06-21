@@ -1,4 +1,6 @@
-export {default as botInfo} from "../info.json" assert {type: "json"};
+import info from "../info.json" assert {type: "json"};
+
+export const botInfo = info || undefined;
 
 export const {
     TELEGRAM_BOT_TOKEN: token,
