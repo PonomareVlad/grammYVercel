@@ -10,6 +10,6 @@ if (await setWebhook(bot, {secret_token: secretToken})) {
     console.info("Webhook set to URL:", url);
 }
 
-const path = new URL("../info.json", import.meta.url);
+// const path = new URL("../info.json", import.meta.url);
 
-console.info("Bot info:", await saveInfo(bot, {path}));
+// console.info("Bot info:", await saveInfo(bot, {path}));
