@@ -5,7 +5,7 @@
     "license": "MIT",
     "scripts": {
         "postprepare": "touch .env",
-        "env": "npx vercel env pull .env",
+        "env": "vercel env pull .env",
         "build": "node scripts/build.mjs",
         "start": "node --watch --env-file=.env scripts/start.mjs"
     },
